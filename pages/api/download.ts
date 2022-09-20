@@ -1,7 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import Client from "ssh2-sftp-client";
-import path from "path";
 
 const sftp = new Client();
 
